@@ -1,13 +1,83 @@
 body {
-  margin: 0;
+  margin: 1rem;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(247, 236, 222) !important;
+  color:rgb(42, 117, 93) !important;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.screenshot{
+  width: 50vw;
+  padding:1rem;
+  border-radius: 2px;
+  border: 5px dashed rgb(158, 210, 198);
+  margin: 1rem;
 }
+
+button{
+  background-color:rgb(158, 210, 198);
+  border: none;
+  border-radius: 5px;}
+
+a{
+  margin: 5px;
+  padding: 5px;
+}
+
+h1, h3{
+display: flex;
+justify-content: center;
+}
+
+h3>a{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding:0;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+ 
+input, textarea {
+    border:0; outline:0;
+    padding: 1em;
+    border-radius: (8px);
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    box-shadow: (0 1px 1px rgba(black, 0.1));
+    resize: none;
+}
+ 
+#input-submit {
+    color: white; 
+    background: rgb(158, 210, 198);
+    cursor: pointer;
+}
+ 
+ textarea {
+     height: 126px;
+ }
+
+.half {
+ float: left;
+ width: 48%;
+ margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+    margin-right: 2%; 
+}
+
