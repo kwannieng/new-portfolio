@@ -27,7 +27,7 @@ const Contact = () =>{
         </div>
 
         <div>
-        <h3>Please also download my CV <a href="https://github.com/kwannieng/my-portfolio/raw/main/asset/KwannieCV.pdf" className="CV"> here </a> for further details.</h3>
+        <h3>Please also download my CV <a href="https://github.com/kwannieng/new-portfolio/raw/main/src/pages/KwannieCV.pdf" className="CV"> here </a> for further details.</h3>
         </div>
     </div>
 }
